@@ -11,12 +11,12 @@ export default function FavoritesNavigation() {
       <Stack.Screen
         name="RickAndMorty"
         component={RickAndMortyScreen}
-        options={{ title: "Rick & Morty" }}
+        options={{ title: "", headerTransparent: true }}
       />
       <Stack.Screen
         name="RYM"
         component={RYMScreen}
-        options={{ title: "Rick & Morty" }}
+        options={{ title: "", headerTransparent: true }}
       />
     </Stack.Navigator>
   );

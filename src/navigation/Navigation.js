@@ -10,7 +10,7 @@ const Tab = createBottomTabNavigator();
 
 export default function Navigation() {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator initialRouteName="RickAndMorty">
       <Tab.Screen
         name="Favorites"
         component={FavoritesNavigation}
